@@ -6,6 +6,7 @@ import Certificates from './component/Certificates'
 import Testimonial from './component/Testimonial'
 import MyProjects from './component/MyProjects'
 import Contact from './component/Contact'
+import MobileNav from './component/MobileNav'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Testimonial/>
       <MyProjects/>
       <Contact/>
+      <MobileNav/>
     </>
   )
 }

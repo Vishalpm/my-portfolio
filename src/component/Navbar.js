@@ -1,24 +1,39 @@
 import React from 'react'
+import { HashLink } from "react-router-hash-link";
 import "./style/nav.css"
 
 function Navbar() {
   return (
     <>
-        <div className="container">
-        <nav className='navbar'>
-            <div className="logo">Logo</div>
-            <div className="btn-group ">
-                <a className='grow-ul a-tag' href="">Vishal</a>
-                <a className='grow-ul a-tag' href="">Portfolio</a>
-                <a className='grow-ul a-tag'  href="">Projects</a>
-                <a className='grow-ul a-tag' href="">Contact Us</a>
-            </div>
 
-            <div className="cv">
-                <button>Hire me</button>
-            </div>
-        </nav>
+      <nav className='navbar container'>
+        <div className="logo">Logo</div>
+        <ul className="btn-group ">
+
+          <li className='grow-ul a-tag'>
+            <HashLink smooth to="/">Vishal</HashLink>
+          </li>
+          <li className='grow-ul a-tag'>
+            <HashLink smooth to="/#certificates">Certificates</HashLink>
+          </li>
+          <li className='grow-ul a-tag'>
+            <HashLink smooth to="/#project">Project</HashLink>
+          </li>
+          <li className='grow-ul a-tag'>
+            <HashLink smooth to="/#education">Education</HashLink>
+          </li>
+          <li className='grow-ul a-tag'>
+            <HashLink smooth to="/#contact">Contact Us</HashLink>
+          </li>
+
+
+        </ul>
+
+        <div className="cv">
+          <button>Hire me</button>
         </div>
+      </nav>
+
     </>
   )
 }
