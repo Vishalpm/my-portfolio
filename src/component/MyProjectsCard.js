@@ -6,7 +6,7 @@ const MyProjectsCard = (props) => {
         <>
             <div className="project-card t-color">
                 <div className="project-img">
-                    <img src="../image/certificates.webp" alt="" />
+                    <img src={props.img} />
                     <div className="github-link">
                         <a href={props.projectGithubLink} target='_blank'><i className="fa-brands fa-github"></i></a>
                     </div>

@@ -34,13 +34,9 @@ const AboutSection = () => {
                         <h1>About Me</h1>
                     </div>
                     <div className="about-text">
-                        <p id="about-me">My name is Vishal Prakash Maurya, I’m 21 years old and I completed my graduation from Babu Banarasi Das National Institute of Technology and Management  with a B.tech in Computer Science. While there, I learning a lot of practical in subjects like fundamentals of new technologies, machine learning,  web development and more.
-
-                            I’ve worked hard in my education and now I’m ready to apply my knowledge into real-world problems.
-
-                            I’ve had a lot of exposure to the technical environment. A lot of my courses involved working with real companies to solve real problems.
-
-                            Now, I’m looking to leverage everything I’ve learned in college and get some hands-on work experience.</p>
+                        <p id="about-me">Hey! I'm Vishal Prakash Maurya, a recent Computer Science graduate from Babu Banarasi Das National Institute of Technology and Management. My academic voyage was a dive into tech's forefront, exploring machine learning, web development, and more, culminating in a strong 8.1 CGPA.
+While I may be new to the professional scene, my education involved hands-on projects with real companies. I've gained valuable problem-solving skills through this practical experience.
+Now, I'm enthusiastic about turning my learning into action. I have a strong desire to solve real-world problems and contribute my skills to meaningful projects. I'm eager for an opportunity to step into the professional world and make a real impact with what I've learned.</p>
 
                     </div>
 

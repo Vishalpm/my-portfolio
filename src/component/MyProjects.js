@@ -20,6 +20,7 @@ const MyProjects = () => {
                             projectDesc={item.description}
                             projectLink={item.liveProjectLink}
                             projectGithubLink={item.githubProjectLink}
+                            img = {item.img}
                         />
                     ))}
                 </div>
